@@ -1,5 +1,5 @@
-.bg-grey{
-    background-color: #6e6c6c;
+.alin{    background-color: #0c1a47;
+
     padding: 5px 20px;
     align-items: center;
 }
@@ -7,23 +7,23 @@ p{
     color: black;
 }
 
-.bg-grey .profile-svg{
+.alin .profile-svg{
 
 }
-.bg-grey .types p{
+.alin .types p{
 margin-bottom: 0;
 
 }
-.bg-grey .types p a{
-    color: white;
+.alin .types p a{
+    color: #938BA1;
 margin: 0 23px;
 text-decoration: none;
 text-transform: uppercase;
 font-size: 20px;
 }
-.bg-grey .checkout-div p{
+.alin .checkout-div p{
     margin-bottom: 0;
-    color: white;
+    color: #938BA1;
     
 text-transform: uppercase;
 font-size: 20px;
