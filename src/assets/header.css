@@ -1,0 +1,30 @@
+.bg-grey{
+    background-color: #6e6c6c;
+    padding: 5px 20px;
+    align-items: center;
+}
+p{
+    color: black;
+}
+
+.bg-grey .profile-svg{
+
+}
+.bg-grey .types p{
+margin-bottom: 0;
+
+}
+.bg-grey .types p a{
+    color: white;
+margin: 0 23px;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 20px;
+}
+.bg-grey .checkout-div p{
+    margin-bottom: 0;
+    color: white;
+    
+text-transform: uppercase;
+font-size: 20px;
+}
