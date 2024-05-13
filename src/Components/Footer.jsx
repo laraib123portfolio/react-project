@@ -1,6 +1,10 @@
 import React from 'react'
 
-function Footer() {
+function Footer(props) {
+  const headerStyle = {
+   
+    color: props.mode === 'dark' ? '#fff' : '#000' // Adjust text color according to the mode
+  };
   return (
     <div>
 
@@ -9,12 +13,12 @@ function Footer() {
 <div className="col-lg-6 col-sm-12">
 <div className="customer-care-footer">
 <h3 className='text-success'>customer care</h3>
-<p>shipping & handling</p>
-<p>exchnage policy</p>
-<p>order cancel</p>
-<p>privacy policy</p>
-<p>terms of use</p>
-<p>faqs</p>
+ <p  style={headerStyle}>shipping & handling</p>
+ <p  style={headerStyle}>exchnage policy</p>
+ <p  style={headerStyle}>order cancel</p>
+ <p  style={headerStyle}>privacy policy</p>
+ <p  style={headerStyle}>terms of use</p>
+ <p  style={headerStyle}>faqs</p>
 
 
 
@@ -24,10 +28,10 @@ function Footer() {
 <div className="col-lg-6 col-sm-12">
 <div className="information-footer">
 <h3 className='text-success'>information</h3>
-<p>about us</p>
-<p> contact us</p>
-<p>careers</p>
-<p>store locator</p>
+ <p  style={headerStyle}>about us</p>
+ <p  style={headerStyle}> contact us</p>
+ <p  style={headerStyle}>careers</p>
+ <p  style={headerStyle}>store locator</p>
 
 </div>
 </div>
