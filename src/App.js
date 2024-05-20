@@ -6,6 +6,7 @@ import Banner from '../src/Components/Banner'
 import Footer from '../src/Components/Footer'
 import TextForm from '../src/Components/TextForm'
 import { useState } from 'react';
+import News from './Components/News';
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -13,6 +14,7 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
+
     } else {
       setMode('light');
     }
@@ -26,6 +28,7 @@ function App() {
         cardText="Some quick example text to build on the card title and make up the bulk of the card's content."
         btnText="Add to cart"/>
       <Footer mode={mode}/>
+      <News/>
     </div>
   );
 }
